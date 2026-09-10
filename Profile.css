@@ -1,0 +1,210 @@
+.profile-header-section {
+  display: flow-root;
+}
+
+.profile-header-overall-container {
+  margin-inline: calc(15px + (60 - 15) * ((100vw - 370px) / (570 - 370)));
+}
+
+.profile-header-sub-overall-container {
+  margin-block: 15px;
+}
+
+.profile-content-overall {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: calc(82px + (140 - 70) * ((100vw - 320px) / (570 - 320)));
+}
+
+.profile-identifier-container {
+  display: flex;
+}
+
+.profile-identifier-itself {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.profile-settings-container {
+  display: flex;
+  align-items: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+/* profile body */
+
+.profile-body-overall {
+  margin-inline: 15px;
+}
+
+.profile-body-sub-overall {
+  margin-block: 15px;
+}
+
+.profile-body-content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.prifle-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-icon-container {
+  width: 76px;
+  height: 76px;
+}
+
+.profile-icon-itself {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.main-profile-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-detials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-name {
+  margin: 4px 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.account-email-adress {
+  font-size: 11.5px;
+  margin: 4px 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  color: rgba(32, 32, 32, 0.774);
+}
+
+
+.profile-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  border-radius: 12px;
+  margin: 4px 0 0 0;
+  padding: 3px 7px;
+  background-color: rgba(95, 5, 5, 0.897);
+  color: rgba(255, 255, 255, 0.692);
+}
+
+.profile-status {
+  font-size: 10px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* options area */
+
+.options-section {
+  display: flow-root;
+}
+
+.options-overall {
+  margin-inline: calc(15px + (60 - 15) * ((100vw - 370px) / (570 - 370)));
+}
+
+.options-sub-overall {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-block: 15px;
+}
+
+
+.first-options-container,
+.second-options-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 10px;
+  border: 4px solid rgba(128, 128, 128, 0.315);
+  background-color: white;
+}
+
+
+.first-options-contents-overall hr,
+.second-options-contents-overall hr {
+  margin: 0;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.315);
+  border: none;
+}
+
+
+.first-options-contents,
+.second-options-contents {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+}
+
+
+.watch-history-itself,
+.related-movies-itself,
+.watchlist-itself,
+.downloads-itself,
+.settings-itself,
+.help-and-support-itself,
+.log-out-itself {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.watch-history-container,
+.related-movies-container,
+.Watchlist-container,
+.Downloads-container,
+.settings-container,
+.helps-and-support-container,
+.log-out-container {
+  display: flex;
+  flex: 1;
+}
+
+
+.watch-history-container,
+.settings-container {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Downloads-container,
+.log-out-container {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.more-options {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}

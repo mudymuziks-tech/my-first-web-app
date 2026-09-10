@@ -1,0 +1,227 @@
+body{
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(190, 190, 190);
+}
+
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* these are the styles for the 
+first area of the first main page*/
+
+.the-first-main-page {
+  margin-bottom: 54px;
+}
+
+.first-section-movie-app {
+  display: flow-root;
+  width: 100%;
+  height: calc(515px + (746 - 500) * ((100vw - 320px) / (570 - 320)));
+}
+
+.first-overall-container-first-section {
+  height: 100%;
+}
+
+.sub-overall-container-first-section {
+  height: 100%;
+}
+
+.first-section-content-container {
+  position: relative;
+  height: 100%;
+}
+
+.my-app-background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.first-background-content-container-first-section {
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+}
+
+.the-first-background-content-itself {
+  font-family: Roboto, Sans-serif;
+  font-size: calc(24px + (50 - 24) * ((100vw - 320px) / (570 - 320)));
+  font-weight: 700;
+  color: rgb(209, 209, 209);
+  margin: 0;
+}
+
+.the-first-background-content-itself span {
+  color: red;
+  margin-left: 10px;
+}
+
+.second-background-content-container-first-section {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  display: flex;
+  border: none;
+  background-color: rgba(37, 37, 37, 0.884);
+  border-radius: 10px;
+  width: calc(230px + (420 - 195) * ((100vw - 320px) / (570 - 320)));
+  padding: 5px 10px;
+}
+
+.search-icon {
+  height: calc(18px + (24 - 18) * ((100vw - 370px) / (570 - 370)));
+}
+
+
+.the-search-area {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.the-search-area::placeholder {
+  font-size: calc(10px + (18 - 10) * ((100vw - 320px) / (570 - 320)));
+  color: white;
+}
+
+
+
+
+
+
+/* these are the styles for the trending 
+movie sections of the first main page*/
+
+.second-section {
+  display: flow-root;
+  width: 100%;
+}
+
+
+.immediate-container-to-the-second-section {
+  margin-inline: 15px;
+}
+
+
+.sub-immediate-container-to-the-second-section {
+  margin-block: 15px;
+}
+
+
+.first-place-content-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.container-to-trending-now {
+  display: flex;
+}
+
+.trending-now {
+  font-family: Roboto, Sans-serif;
+  margin: 0;
+  font-size: calc(12px + (22 - 12) * ((100vw - 320px) / (570 - 320)));
+}
+
+.see-all {
+  font-family: Roboto, Sans-serif;
+  margin: 0;
+  font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (570 - 320)));
+  color: red;
+  cursor: pointer;
+}
+
+/* these are the styles for the second 
+place of the trending movie area */
+
+.second-section-second-division-overall {
+  width: 100%;
+}
+
+
+.second-section-second-division-overall-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.second-section-image-container1,
+.second-section-image-container2,
+.second-section-image-container3,
+.second-section-image-container4 {
+  width: 100%;
+  
+}
+
+.second-section-trending-movie-poster-itself {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+
+
+
+
+/* these are the styles for the popular trending videos 
+of the week in the first main page*/
+
+.overall-container-of-the-weekly-trends {
+  margin-inline: 15px;
+}
+
+.weekly-trend-first-content-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+
+.popular-this-week-container {
+  height: fit-content;
+}
+
+.popular-this-week {
+  font-family: Roboto, Sans-serif;
+  margin: 0;
+  font-size: calc(12px + (22 - 12) * ((100vw - 320px) / (570 - 320)));
+}
+
+.see-all-tag {
+  font-family: Roboto, Sans-serif;
+  color: red;
+  font-size: calc(10px + (20 - 10) * ((100vw - 320px) / (570 - 320)));
+  margin: 0;
+  cursor: pointer;
+}
+
+.overall-container-to-the-weekly-trending-videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.one-of-the-trending-videos-container {
+  width: 100%;
+}
+
+.video-previews {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}

@@ -1,0 +1,164 @@
+.head-section {
+  display: flow-root;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(131, 131, 131, 0.527);
+}
+
+.header-content-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 20px;
+}
+
+.menu-bar-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+}
+
+.menu-bar-container:active + .the-menus-overall {
+  opacity: 1;
+}
+
+.menu-bar {
+  width: calc(35px + (45 - 35) * ((100vw - 320px) / (570 - 320)));
+  cursor: pointer;
+}
+
+.delete-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 10px 10px 0;
+}
+
+.delete-button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+.the-menus-overall {
+  display: flow-root;
+  position: absolute;
+  top: 53px;
+  left: -20px;
+  background-color: rgba(0, 0, 0, 0.856);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.the-menus-sub-overall {
+  display: flex;
+  margin-inline: 25px;
+}
+
+.the-menus-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-block: 15px;
+}
+
+.indicator-and-contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  background: linear-gradient( to right, rgba(0, 0, 0, 0.664), gold, rgba(0, 0, 0, 0.664));
+  justify-content: center;
+  padding: 5px;
+}
+
+
+.indicator {
+  height: 12px;
+  width: 12px;
+  background-color: red;
+}
+
+
+.the-watch-history,
+.the-related-movies,
+.the-watchlist,
+.the-downloads,
+.the-settings,
+.the-help-and-support,
+.the-log-out,
+.light-and-dark {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 8px 0;
+  font-size: 16px;
+  width: 140px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.logo-container {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.identity-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: fit-content;
+  align-items: center;
+}
+
+.name-and-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.video-container {
+  width: fit-content;
+  height: fit-content;
+  padding-top: 9px;
+}
+
+.video {
+  height: calc(25px + (35 - 25) * ((100vw - 370px) / (570 - 370)));
+}
+
+.app-name {
+  color: white;
+  font-family: 'Bebas Neue', Sans-serif;
+  margin: 5px 0 0 5px;
+  font-size: calc(25px + (40 - 25) * ((100vw - 320px) / (570 - 320)));
+}
+
+.for-separate-color {
+  color: red;
+}
+
+.app-name-description {
+  color: white;
+  font-family: 'Bebas Neue', Sans-serif;
+  margin: 0;
+  font-size: 10px;
+}
+
+.search-area-container {
+  display: flex;
+  margin-top: 5px;
+}
+
+.header-search-area {
+  width: calc(28px + (38 - 28) * ((100vw - 320px) / (570 - 320)));
+  cursor: pointer;
+}
