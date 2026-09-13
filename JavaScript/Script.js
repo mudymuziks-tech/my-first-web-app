@@ -12,4 +12,4 @@ const menuBtn = document .querySelector("#menuBtn");
 const menu = document .querySelector("#menu");
 
 menuBtn.addEventListener("click", () => {
-  menu.classicList.toggle("show");});
+  menu.classList.toggle("show");});
