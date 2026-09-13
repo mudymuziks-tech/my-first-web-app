@@ -6,3 +6,10 @@ searchInput.addEventListener("input", function () {
 
   searchResult.textContent ="you are searching for: " + searchText;
 });
+
+
+const menuBtn = document .querySelector("#menuBtn");
+const menu = document .querySelector("#menu");
+
+menuBtn.addEventListener("click", () => {
+  menu.classicList.toggle("show");});
