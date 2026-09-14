@@ -92,7 +92,7 @@ first area of the first main page*/
 }
 
 .the-search-area::placeholder {
-  font-size: calc(10px + (16 - 10) * ((100vw - 320px) / (570 - 320)));
+  font-size: calc(16px + (18 - 10) * ((100vw - 320px) / (570 - 320)));
   font-weight: 700;
   color: white;
 }
