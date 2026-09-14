@@ -1,3 +1,20 @@
+body{
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(190, 190, 190);
+}
+
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
 .the-explore-main-page {
   margin-bottom: 100px;
 }
@@ -26,10 +43,16 @@
   flex: 1;
 }
 
-.the-prev-button-itself {
+.back-button {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  padding: 0;
+  height: 25px;
+}
+
+.explore-prev-icon {
+  height: 100%;
 }
 
 
