@@ -73,7 +73,7 @@ first area of the first main page*/
   border: none;
   background-color: rgba(37, 37, 37, 0.884);
   border-radius: 10px;
-  width: 300px;
+  width: calc(230px + (420 - 195) * ((100vw - 320px) / (570 - 320)));
   padding: 5px 10px;
 }
 
