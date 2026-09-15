@@ -1,9 +1,36 @@
+body{
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(190, 190, 190);
+}
+
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
 .watchlist-main-page {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   width: 100%;
 }
 
 /* watchlist header */
+
+.watchlist-header {
+  display: flow-root;
+  position: fixed;
+  background-color: rgb(190, 190, 190);
+  box-shadow: 0 0.50px 1px 0 rgba(46, 46, 46, 0.836);
+  width: 100%;
+}
+
+
 .watchlist-overall-continer {
   margin-inline: 15px;
 }
@@ -66,10 +93,6 @@
   cursor: pointer;
 }
 
-.watchlist-header hr {
-  margin: 0;
-}
-
 
 /* watched movies */
 
@@ -82,7 +105,7 @@
 }
 
 .watched-movies-sub-overall-container {
-  margin-block: 15px;
+  margin: 80px 0 0 0;
 }
 
 .watched-movies-contents-container {
@@ -105,14 +128,21 @@
 
 .for-the-three-dots {
   display: flex;
+  flex: 1;
 }
 
 
 .watched-movies-description-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex: 1;
   height: fit-content;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .watched-movie-name {
@@ -134,4 +164,9 @@
 .watched-movie-ratings-container {
   display: flex;
   flex-direction: column;
+}
+
+.more-container {
+  display: flex;
+  align-items: flex-start;
 }

@@ -18,7 +18,7 @@ html {
 first area of the first main page*/
 
 .the-first-main-page {
-  margin-bottom: 54px;
+  margin-bottom: 65px;
 }
 
 .first-section-movie-app {
@@ -73,7 +73,7 @@ first area of the first main page*/
   border: none;
   background-color: rgba(37, 37, 37, 0.884);
   border-radius: 10px;
-  width: calc(230px + (420 - 195) * ((100vw - 320px) / (570 - 320)));
+  width: 300px;
   padding: 5px 10px;
 }
 
@@ -85,14 +85,15 @@ first area of the first main page*/
 .the-search-area {
   border: none;
   width: 100%;
+  min-width: 0;
   background-color: transparent;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   color: white;
 }
 
 .the-search-area::placeholder {
-  font-size: calc(16px + (18 - 10) * ((100vw - 320px) / (570 - 320)));
+  font-size: calc(12px + (16 - 10) * ((100vw - 320px) / (570 - 320)));
   font-weight: 700;
   color: white;
 }

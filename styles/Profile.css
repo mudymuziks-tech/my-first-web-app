@@ -1,3 +1,20 @@
+body{
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(190, 190, 190);
+}
+
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
 .profile-header-section {
   display: flow-root;
 }
@@ -6,19 +23,16 @@
   margin-inline: calc(15px + (60 - 15) * ((100vw - 370px) / (570 - 370)));
 }
 
-.profile-header-sub-overall-container {
-  margin-block: 15px;
-}
-
 .profile-content-overall {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: calc(82px + (140 - 70) * ((100vw - 320px) / (570 - 320)));
+  position: relative;
+  min-height: 60px;
 }
 
 .profile-identifier-container {
-  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
 }
 
 .profile-identifier-itself {
@@ -29,12 +43,16 @@
 }
 
 .profile-settings-container {
-  display: flex;
-  align-items: flex-end;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 25px;
   cursor: pointer;
+}
+
+.profile-settings {
+  height: 100%;
 }
 
 
@@ -45,7 +63,7 @@
 }
 
 .profile-body-sub-overall {
-  margin-block: 15px;
+  margin: 15px 0 15px 0;
 }
 
 .profile-body-content-container {
@@ -202,9 +220,12 @@
   border-bottom-right-radius: 10px;
 }
 
-.more-options {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  font-weight: 700;
+.more-options-container {
+  height: 25px;
   cursor: pointer;
+}
+
+
+.more-options {
+  height: 100%;
 }

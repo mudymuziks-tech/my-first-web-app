@@ -3,7 +3,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(131, 131, 131, 0.719);
+  background-color: rgba(0, 0, 0, 0.855);
 }
 
 .overall-nav-container {
@@ -17,6 +17,11 @@
   align-items: flex-start;
   gap: 6px;
   width: 100%;
+}
+
+.the-navs-container {
+  text-align: center;
+  text-decoration: none;
 }
 
 .the-navs-container {
