@@ -1,3 +1,17 @@
+const movies = [
+  "Batman",
+  "Avatar",
+  "Interstellar",
+  "inception",
+  "The Dark Knight",
+  "Redemption",
+  "Picky Blinders",
+  "Black Panther",
+  "The Pursuit Of Happiness"
+];
+
+
+
 const searchInput = document.getElementById("movieSearch");
 const searchResult = document.getElementById("searchResult");
 
@@ -7,10 +21,10 @@ if (searchInput && searchResult) {
 
     if (searchText ==="") {
       searchResult.textContent = "Start typing a a movie...";
-    } else if (searchText === "Batman") {
-      searchResult.textContent = "Batman found!";
+    } else if (movies.includes(searchText)) {
+      searchResult.textContent = "Movie found!";
     } else {
-      searchResult.textContent = "You are searching for: " + searchText;
+      searchResult.textContent = "Movie not found. ";
     }
   });
 }
