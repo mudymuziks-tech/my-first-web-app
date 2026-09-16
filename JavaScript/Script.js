@@ -3,10 +3,7 @@ const movies = [
   "Avatar",
   "Interstellar",
   "inception",
-  "The Dark Knight",
-  "Redemption",
-  "Picky Blinders",
-  "Black Panther"
+  "The Dark Knight"
 ];
 
 
