@@ -14,6 +14,7 @@ const searchResult = document.getElementById("searchResult");
 if (searchInput && searchResult) {
   searchInput.addEventListener("input", function () {
     const searchText = searchInput.value;
+    const lowersearchText = searchText.lowerCase();
     if (searchText ==="") {
       searchResult.textContent = "Start typing a a movie...";
     } else if (movies.includes(searchText)) {
