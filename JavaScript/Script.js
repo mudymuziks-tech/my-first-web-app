@@ -6,8 +6,7 @@ const movies = [
   "The Dark Knight",
   "Redemption",
   "Picky Blinders",
-  "Black Panther",
-  "The Pursuit Of Happiness"
+  "Black Panther"
 ];
 
 
