@@ -5,7 +5,13 @@ if (searchInput && searchResult) {
   searchInput.addEventListener("input", function () {
     const searchText = searchInput.value;
 
-    searchResult.textContent = "you are searching for: " + searchText;
+    if (searchText ==="") {
+      searchResult.textContent = "Start typing a a movie...";
+    } else if (searchText === "Batman") {
+      searchResult.textContent = "Batman found!";
+    } else {
+      searchResult.textContent = "You are searching for: " + searchText;
+    }
   });
 }
 
