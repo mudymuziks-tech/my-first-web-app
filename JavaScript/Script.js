@@ -2,7 +2,7 @@ const movies = [
   "Batman",
   "Avatar",
   "Interstellar",
-  "inception",
+  "Inception",
   "The Dark Knight"
 ];
 
@@ -14,7 +14,6 @@ const searchResult = document.getElementById("searchResult");
 if (searchInput && searchResult) {
   searchInput.addEventListener("input", function () {
     const searchText = searchInput.value;
-
     if (searchText ==="") {
       searchResult.textContent = "Start typing a a movie...";
     } else if (movies.includes(searchText)) {
